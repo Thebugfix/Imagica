@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Qwitcher+Grypen&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+}
+
+body{
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.head{
+    font-size: 40px;
+    text-align: center;
+}
+
+.head p{
+    font-size: 30px;
+    font-family: "Qwitcher Grypen", cursive;
+}
+
+.searchBar{
+    width: 500px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchBar input{
+    width: 80%;
+    height: 100%;
+    border-top-left-radius: 10px ;
+    border-bottom-left-radius: 10px ;
+    border: none;
+    outline: none;
+}
+
+.searchBar button{
+    width: 20%;
+    height: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    border: none;
+    border-top-right-radius: 10px ;
+    border-bottom-right-radius: 10px ;
+    background-color: green;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.main{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.main .image{
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
